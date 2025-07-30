@@ -1,0 +1,24 @@
+# Core ML libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Boosting libraries  
+xgboost>=1.5.0
+lightgbm>=3.3.0
+catboost>=1.0.0
+
+# GPU acceleration (optional)
+# cudf-cu11>=21.12.0
+# cuml-cu11>=21.12.0
+
+# Deep learning (optional)
+# torch>=1.10.0
+# torchvision>=0.11.0
+# torchaudio>=0.10.0
+
+# Utilities
+requests>=2.26.0
+jupyter>=1.0.0

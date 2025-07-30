@@ -1,0 +1,25 @@
+name: ids_unlearning
+channels:
+  - conda-forge
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - requests
+  - cudatoolkit=11.8
+  - pip
+  - pip:
+    - xgboost[gpu]
+    - lightgbm
+    - catboost
+    - cudf-cu11
+    - cuml-cu11
+    - torch
+    - torchvision
+    - torchaudio
